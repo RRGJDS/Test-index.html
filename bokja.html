@@ -2156,13 +2156,19 @@
                                 다른 궁금하신 점은 3-7반 사라를 찾아주세요. 감사합니다.<br><br><br><br><br><br><br><br><br>
                             </p>
                             <script>
-                                var loggin = L();
+                                var hu = main();
+                                if(hu==9){
+                                    <button class="but" onclick="index.html">로그아웃</button>
+                                }
+
+                                else if(hu==1){
+                                    <button class="but" onclick="index.html">로그인</button>
+                                }
+
+                                else{
+                                    <button class="but" onclick="index.html">오류</button>
+                                }
                             </script>
-                            <a href="index.html">
-                                <button class="but" value="로그인/아웃" onclick="
-                                main();"
-                                }></button>
-                            </a>
                         </div>
                     </section>
                 </div>

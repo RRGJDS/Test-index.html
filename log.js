@@ -24,13 +24,14 @@ function reset(){
 
 function main()  {
     var loggin = L();
+    var tl;
     if(loggin=='50'){
         setCookie('login', '3');
-        document.querySelector('.tlqkfhh').value = '로그아웃';
+        tl = 9;        
     }
 
     else{
-        document.querySelector('.tlqkfhh').value = '로그인';
+        tl = 1;
     }
-    window.location.href = 'index.html'
+    return tl;
   }
