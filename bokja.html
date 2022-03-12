@@ -2159,18 +2159,11 @@
                                 var loggin = L();
                             </script>
                             <a href="index.html">
-                                <input class="tlqkfhh" type="button" value="로그인" onclick="
-                                    if(loggin=='50'){
-                                        document.querySelector('.tlqkfhh').value = '로그아웃';
-                                        setCookie('login', '3');
-                                        location.href='index.html'
-                                    }
-
-                                    else{
-                                        document.querySelector('.tlqkfhh').value = '로그인';
-                                        location.href='index.html'
-                                    }
-                                    "></button>
+                                <button class="but" onclick="
+                                if(loggin=='50'){
+                                    setCookie('login', '3');
+                                }"
+                                }>로그인/아웃</button>
                             </a>
                         </div>
                     </section>
