@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title> 복자여자고등학교 도우미 시스템 </title>
+        <link rel="stylesheet" href="log.css">
+        <script src="./log.js"></script>
+        <!-- <script type="text/javascript">
+            HapE();
+            var kdC = 0;
+            var kdS = 0;
+
+            document.onkeydown=keycheck;
+            document.onkeyup=uncheckCtrlshift;
+
+            function keycheck(){
+                switch(event.keyCode){
+                    case 123:event.keyCode='';return false; break;//F12
+
+                    case 17:event.keyCode='';kdC=1;return false; break;//컨트롤
+                }
+
+                if(kdC) return false;
+            }
+
+            function uncheckCtrlshift(){
+                if(event.keyCode==17)       kdC=0;
+                if(event.keyCode==16)       kdS=0;
+            }
+
+            function click() {
+                if(event.button==2||event.button==3) alert("우클릭을 금지합니다."); } 
+                document.onmousedown=click;
+        </script> -->
+        <script>
+            reset();
+        </script>
+    </head>
+    <body>
+        <div style="text-align: center;">
+            <div class="s">
+                <div class="box">
+                    <br><br>
+                    <button type="button" onClick="
+                    location.href='B4.html'">학생</button>
+                    <button type="button" onClick="
+                    location.href='log.html'">선생님</button>
+                    <br><br><br>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

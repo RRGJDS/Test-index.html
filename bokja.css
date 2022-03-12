@@ -1,0 +1,336 @@
+body{
+    color: rgb(0, 0, 0);
+    background:rgb(126, 26, 26);
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 1000px;
+}
+    
+h1{
+    padding: 50px 0;
+    font-weight: 500;
+    text-align: center;
+    transform: translate(0%, -45%);
+    color: #ffffff;
+}
+    
+p {
+    margin: 0 0 2%;
+    line-height: 2;
+}
+
+section {
+    display: none;
+    padding: 2% 0 0;
+    border-top: 1px solid rgb(255, 255, 255);
+}
+        
+input{
+    visibility: hidden;
+}
+
+.main {
+    border-radius: 0px;
+    padding: 50px;
+    margin: 0 auto;
+    background: #ffffff;
+    width: 1420px;
+    transform: translate(0%, -3.2%);
+    height: 3920px;
+}      
+
+.mm{
+    background-color: #fff7ec;
+}
+    
+/* 선택전 학사일정 */
+label {
+    display: inline-block;
+    margin: 0 0 -1px;
+    padding: 15px 25px;
+    font-weight: 600;
+    text-align: center;
+    color: #bbb;
+    border: 1px solid transparent;
+}
+
+.sinnanda{
+    z-index: 1;
+}
+    
+label:hover {
+    color: rgb(99, 0, 0);
+    cursor: pointer;
+}
+
+/* 학사일정  체크*/
+input:checked + label {
+    color: #555;
+    border: 1px solid #ddd;
+    border-top: 2px solid rgb(46, 9, 9);
+    border-bottom: 2px solid #ffffff;
+}
+
+.gg{
+    background-color: #fff7ec;
+}
+
+.but{
+    width: 250px;
+    background-color: #fff7ec;
+    border-radius: 5px;
+    border:1px solid #ffdba9;
+    height: 40px;
+    margin-left: 50px;
+}
+
+.tlqkfhh{
+    background-color: #fff7ec;
+    border:1px solid #ffdba9;
+    height: 40px;
+    width: 250px;
+    border-radius: 5px;
+}
+
+.but:hover{
+    background-color: #ffd8a1;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+#b1 {
+    font-size: 18px;
+    width: 100%;
+    height: 380px;
+    border: 3px solid black;
+    border-radius: 10px;
+    letter-spacing: 2px;
+    color: black;
+    background-color: white;
+    transition: all 0.4s;
+    text-align: center;
+    margin-top: 50px;
+}
+    
+#b1:focus{
+    outline: none;
+}
+    
+#b1:hover{
+    background-color: #fff7ec;
+    color: black;
+    cursor: pointer;
+}
+
+#b2 {
+    font-size: 18px;
+    width: 100%;
+    height: 380px;
+    border: 3px solid black;
+    border-radius: 10px;
+    letter-spacing: 2px;
+    color: black;
+    background-color: white;
+    transition: all 0.4s;
+    text-align: center;
+    margin-top: -40px;
+}
+
+#b2:focus{
+    outline: none;
+}
+
+#b2:hover{
+background-color: #fff7ec;
+color: rgb(27, 27, 27);
+cursor: pointer;
+}
+
+.bt {
+    margin-left: 10px;
+}
+    
+#t1 {
+    border: 1px solid #444;
+    border-collapse: collapse;
+    width: 1420px;
+}
+
+#t1 th,td {
+    border: 1px solid #444;
+    
+}
+
+#s1{
+    border: 1px solid #444;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+#s1 th,td{
+    border: 1px solid #444;
+}
+
+#hak{
+    visibility: visible;
+}
+
+.inmain {
+    margin-left: 3%;
+}
+
+#l1 {
+    margin-left: 5%;
+}
+
+.right{
+    text-align : right;
+    margin-right: 10% ;
+}
+
+.left{
+    text-align : left;
+    margin-left: 40px ;
+}
+
+.gu {
+    margin-left: 13%;
+    margin-top: -37%;
+    width : 1000px;
+    height: 800px;
+    background-color:#fff7ec;
+    border: 1px solid #fce4c3;
+}
+
+.gut {
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.gs {
+    margin-left: 7%;
+    margin-top: -30%;
+}
+
+.gm {
+    margin-left: 8%;
+    margin-top: -41%;
+}
+
+.ga {
+    margin-left: 15%;
+    margin-top: -10%;
+}
+
+.gl{
+    margin-left: 180px;
+    margin-top: -400px;
+    width : 1000px;
+    height: 400px;
+    background-color:#fff7ec;
+    border: 1px solid #fce4c3;
+}
+
+.tlfgja{
+    line-height: 1.7em;
+    margin-left: 820px;
+    width : 430px;
+    height: 418px;
+    background-color:#fff7f6;
+    border-top: 2px solid #963c38;
+    border-bottom: 2px solid #963c38;
+}
+
+.tlfgja1{
+    margin-left: 10px;
+}
+
+.glt {
+    margin-left: 30px;
+}
+
+.ls{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.lsg{
+    width: 120px;
+    text-align: center;
+}
+
+.disqus{
+    width: 1000px;
+    height: auto;
+}
+
+#tab1:checked ~ #content1,
+#tab2:checked ~ #content2,
+#tab3:checked ~ #content3,
+#tab4:checked ~ #content4,
+#tab5:checked ~ #content5,
+#tab6:checked ~ #content6,
+#tab7:checked ~ #content7,
+#tab8:checked ~ #content8,
+#tab9:checked ~ #content9{
+    display: block;
+}
+
+#tabtab1:checked ~ #tabtab1,
+#tabtab2:checked ~ #tabtab2,
+#tabtab3:checked ~ #tabtab3,
+#tabtab4:checked ~ #tabtab4,
+#tabtab5:checked ~ #tabtab5,
+#tabtab6:checked ~ #tabtab6,
+#tabtab7:checked ~ #tabtab7,
+#tabtab8:checked ~ #tabtab8,
+#tabtab9:checked ~ #tabtab9,
+#tabtab10:checked ~ #tabtab10,
+#tabtab11:checked ~ #tabtab11{
+    display: block;
+}
+
+#tab00:checked ~ #tab00,
+#tab01:checked ~ #tab01,
+#tab02:checked ~ #tab02,
+#tab03:checked ~ #tab03,
+#tab04:checked ~ #tab04,
+#tab05:checked ~ #tab05,
+#tab06:checked ~ #tab06,
+#tab07:checked ~ #tab07,
+#tab08:checked ~ #tab08{
+    display: block;
+}
+
+#tab003:checked ~ #tab003,
+#tab004:checked ~ #tab004,
+#tab005:checked ~ #tab005,
+#tab006:checked ~ #tab006,
+#tab007:checked ~ #tab007,
+#tab008:checked ~ #tab008,
+#tab009:checked ~ #tab009,
+#tab010:checked ~ #tab010,
+#tab011:checked ~ #tab011,
+#tab012:checked ~ #tab012,
+#tab001:checked ~ #tab001,
+#tab002:checked ~ #tab002{
+    display: block;
+}
+
+#tab0001:checked ~ #tab0001,
+#tab0002:checked ~ #tab0002,
+#tab0003:checked ~ #tab0003,
+#tab0004:checked ~ #tab0004{
+    display: block;
+}
+
+#tab00001:checked ~ #tab00001,
+#tab00002:checked ~ #tab00002,
+#tab00003:checked ~ #tab00003,
+#tab00004:checked ~ #tab00004,
+#tab00005:checked ~ #tab00005,
+#tab00006:checked ~ #tab00006,
+#tab00007:checked ~ #tab00007{
+    display: block;
+}

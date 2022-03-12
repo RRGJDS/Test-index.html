@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title> 복자여자고등학교 도우미 시스템 </title>
+        <link rel="stylesheet" href="log.css">
+        <script src="./log.js"></script>
+        <!-- <script type="text/javascript">
+            HapE();
+            var kdC = 0;
+            var kdS = 0;
+
+            document.onkeydown=keycheck;
+            document.onkeyup=uncheckCtrlshift;
+
+            function keycheck(){
+                switch(event.keyCode){
+                    case 123:event.keyCode='';return false; break;//F12
+
+                    case 17:event.keyCode='';kdC=1;return false; break;//컨트롤
+                }
+
+                if(kdC) return false;
+            }
+
+            function uncheckCtrlshift(){
+                if(event.keyCode==17)       kdC=0;
+                if(event.keyCode==16)       kdS=0;
+            }
+
+            function click() {
+                if(event.button==2||event.button==3) alert("우클릭을 금지합니다."); } 
+                document.onmousedown=click;
+        </script> -->
+    </head>
+    <body>
+        <div style="text-align: center;">
+            <div class="s">
+                <div class="box">
+                    <br>
+                    <h5>
+                        코드를 입력 후 엔터를 눌러주세요.<br>
+                        만약 로그인이 되지 않는다면 대소문자와 오타를 점검해주세요.
+                    </h5>
+                    <input type="text" ID="InputCode" placeholder="코드를 입력하세요.(최대 8자)" maxlength="8" size="30" onchange="
+                    if(this.value=='Qw3gd5Yd'){
+                        alert('환영합니다, 나준영선생님.')
+                        setCookie('login', '50', '2');
+                        location.href='bokja.html'
+                    }
+                    ">
+                    <br><br><br>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
