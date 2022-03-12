@@ -2158,18 +2158,19 @@
                             <script>
                                 var loggin = L();
                             </script>
-                            <input id="tlqkfhh" type="button" value="로그인" onclick="
-                            if(loggin=='50'){
-                                document.querySelector('#tlqkfhh').value = '로그아웃';
-                                setCookie('login', '3');
-                                location.href='index.html'
-                            }
+                            <a href="index.html">
+                                <input id="tlqkfhh" type="button" value="로그인" onclick="
+                                    if(loggin=='50'){
+                                        document.querySelector('#tlqkfhh').value = '로그아웃';
+                                        setCookie('login', '3');
+                                        location.href='index.html'
+                                    }
 
-                            else{
-                                document.querySelector('#tlqkfhh').value = '로그인';
-                                location.href='index.html'
-                            }
-                            "></button>
+                                    else{
+                                        document.querySelector('#tlqkfhh').value = '로그인';
+                                        location.href='index.html'
+                                    }
+                                    "></button>
                             </a>
                         </div>
                     </section>
