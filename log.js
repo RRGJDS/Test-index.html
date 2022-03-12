@@ -21,3 +21,16 @@ function L(){
 function reset(){  
   setCookie('login', '3', '2');
 }
+
+function main()  {
+    var loggin = L();
+    if(loggin=='50'){
+        setCookie('login', '3');
+        document.querySelector('.tlqkfhh').value = '로그아웃';
+    }
+
+    else{
+        document.querySelector('.tlqkfhh').value = '로그인';
+    }
+    window.location.href = 'index.html'
+  }
