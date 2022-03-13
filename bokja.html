@@ -2383,9 +2383,17 @@
                             메이커실 이용을 원하신다면 하단에 학번, 이름과 함께 원하시는 날짜와 시간대를 입력한 후 제출해주세요.<br><br><br><br><br>
                             
                         </p>
-                        <a href="student.html">
-                            <button class="but">메이커실 예약하러 가기</button>
-                        </a>
+                        <script>
+                            var V = L();
+                        </script>
+                            <button class="but" onclick="
+                            if(V==50){
+                                location.href='teach.html'
+                            }
+                            else{
+                                location.href='student.html'
+                            }
+                            ">메이커실 예약하러 가기</button>
                     </div>
                 </section>
 
@@ -2433,7 +2441,6 @@
                             다른 궁금하신 점은 3-7반 사라를 찾아주세요. 감사합니다.<br>
                         </p>
                         <h3>
-                            <!---->
                             <a href="index.html">
                             <button class="logout">로그아웃</button>              
 
