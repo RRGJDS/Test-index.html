@@ -16,6 +16,32 @@
          <meta name="viewport" content="width=device-width, initial-scale=1.0">
          <link rel="stylesheet" href="bokja.css">
          <script src="./log.js"></script>
+         <script type="text/javascript">
+            var kdC = 0;
+            var kdS = 0;
+
+            document.onkeydown=keycheck;
+            document.onkeyup=uncheckCtrlshift;
+
+            function keycheck(){
+                switch(event.keyCode){
+                    case 123:event.keyCode='';return false; break;//F12
+
+                    case 17:event.keyCode='';kdC=1;return false; break;//컨트롤
+                }
+
+                if(kdC) return false;
+            }
+
+            function uncheckCtrlshift(){
+                if(event.keyCode==17)       kdC=0;
+                if(event.keyCode==16)       kdS=0;
+            }
+
+            function click() {
+                if(event.button==2||event.button==3) alert("우클릭을 금지합니다."); } 
+                document.onmousedown=click;
+        </script>
      </head>
 
      <body>
