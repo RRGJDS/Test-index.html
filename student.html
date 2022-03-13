@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ko"> 
+     <head>
+         <title> 복자여자고등학교 도우미 시스템 </title>
+
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+         <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+         
+         <style>
+            @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+            </style>
+
+
+         <meta charset="UTF-8">
+         <meta http-equiv="X-UA-Compatible" content="">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0">
+         <link rel="stylesheet" href="student.css">
+     </head>
+
+     <body>
+        <div id="header">복자여고 예약 시스템</div>
+        
+
+        <h1>장소와 기구 사용 예약하기</h1>
+        <div class="form">
+            <form action="reserve.html" method="post"> <!--novalidate-->
+                <div class="input_area">
+                    <p>
+                        <label for="bokjaname">이름</label> <br>
+                        <input type="text" id="bokjaname" name="bokjaname" 
+                        required minlength="2" maxlength="5" placeholder="  복자향">
+                    </p>
+                    <p>
+                        <label for="bokjanum">학번</label> <br>
+                        <input type="text" id="bokjanum" name="bokjanum" 
+                        required minlength="4" maxlength="5" placeholder="  1111">
+                    </p> 
+                    <!--
+                    <p>
+                        <label for="bokjaroom">교실</label> <br>
+                        <input type="text" id="bokjaroom" name="bokjaroom" required>
+                    </p>
+                    -->
+                    <label for="bokjaroom">교실</label><br>
+                    <select name="bokjaroom" id="bokjaroom" required>
+                    <!--<optgroup label="과학실"></optgroup>-->
+                        <option>  항목을 선택해주세요.</option>
+                        <option value="물리실">  물리실</option>
+                        <option value="화학실">  화학실</option>
+                        <option value="생명실">  생명실</option>
+                        <option value="지구과학실">  지구과학실</option>
+                        <option value="메이커실">  메이커실</option>
+                        <option value="3D프린터">  3D프린터</option>
+                    </select>
+        
+                    <p>
+                        <label for="bokjaday">날짜</label> <br>
+                        <input type="text" id="bokjaday" name="bokjaday" placeholder="  00월 00일 0요일" 
+                        required maxlength="10">
+                    </p>
+                    <p>
+                        <label for="bokjatime">시간대</label> <br>
+                        <input type="text" id="bokjatime" name="bokjatime" placeholder="  00:00 ~ 00:00"
+                        required maxlength="20">
+                    </p>
+                </div>
+                
+                <div class="joybox">
+                    <input id="cancle" type="reset" value="취소" onclick="history.back()">
+                    <input id="reserve" type="submit" value="예약하기">
+                </div>
+                
+            </form>
+        </div>
+
+     </body>
+</html>
+
+
+
+

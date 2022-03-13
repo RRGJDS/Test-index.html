@@ -1,0 +1,91 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(73, 73, 73);
+    box-sizing: border-box;
+
+    -ms-user-select: none; 
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+
+#header {
+    padding-top: 5px;
+    margin: 0;
+    height: 25px;
+    width: 100%;
+    font-weight: 50;
+    background-color: rgb(112, 20, 20);
+    text-align: center;
+    color: white;
+    font-size: 13px;
+}
+
+h1 {
+    position: relative;
+    right: 70px;
+    padding-top: 10px;
+    text-align: left;
+    font-size: 15px;
+}
+
+.form {
+    text-align: middle;
+
+    position: relative;
+    height: 50px;
+}
+
+.form label {
+    font-size: 12px;
+}
+
+.form input {
+
+    font-size: 10px;
+    width: 300px;
+    height: 20px;
+    color: #595f6e;
+}
+
+.form select {
+    font-size: 10px;
+    width: 308px;
+    height: 28px;
+    color: #595f6e;
+}
+
+
+.input_area {
+    padding-bottom: 25px;
+    padding-top: -100px;
+}
+
+
+#cancle {
+    position: relative;
+    left: 75px;
+    color: white;
+    height: 25px;
+    width: 75px;
+    border: none;
+    background-color: rgb(110, 110, 110);
+}
+
+#reserve {
+    position: relative;
+    left: 78px;
+    color: white;
+    height: 25px;
+    width: 75px;
+    border: none;
+    background-color: rgb(112, 20, 20);
+}

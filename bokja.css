@@ -4,14 +4,28 @@ body{
     margin:0;
     padding: 0;
     box-sizing: border-box;
-    height: 1000px;
+    height: 100px;
 }
-    
+
+.tlfgja {
+    line-height: 1.7em;
+    margin-left: 820px;
+    width: 430px;
+    height: 418px;
+    background-color: #fff7f6;
+    border-top: 2px solid #963c38;
+    border-bottom: 2px solid #963c38;
+}
+
+.tlfgja1 {
+    margin-left: 10px;
+}
+
 h1{
     padding: 50px 0;
-    font-weight: 500;
+    font-weight: 100;
     text-align: center;
-    transform: translate(0%, -45%);
+    transform: translate(0%, -30%);
     color: #ffffff;
 }
     
@@ -37,14 +51,17 @@ input{
     background: #ffffff;
     width: 1420px;
     transform: translate(0%, -3.2%);
-    height: 3920px;
+    height: 2500px;
 }      
+
+.item-bg {
+    background-image: url(../img/60th.jpg);
+}
 
 .mm{
     background-color: #fff7ec;
 }
     
-/* 선택전 학사일정 */
 label {
     display: inline-block;
     margin: 0 0 -1px;
@@ -64,7 +81,6 @@ label:hover {
     cursor: pointer;
 }
 
-/* 학사일정  체크*/
 input:checked + label {
     color: #555;
     border: 1px solid #ddd;
@@ -85,6 +101,15 @@ input:checked + label {
     margin-left: 50px;
 }
 
+.logout{
+    width: 100px;
+    background-color: #ffecec;
+    border-radius: 5px;
+    border:1px solid #ffa9a9;
+    height: 30px;
+    margin-left: 40px;
+}
+
 .tlqkfhh{
     background-color: #fff7ec;
     border:1px solid #ffdba9;
@@ -92,9 +117,15 @@ input:checked + label {
     width: 250px;
     border-radius: 5px;
 }
-
+ 
 .but:hover{
     background-color: #ffd8a1;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.logout:hover{
+    background-color: #ffa1a1;
     color: rgb(0, 0, 0);
     cursor: pointer;
 }
@@ -194,9 +225,15 @@ cursor: pointer;
     margin-left: 40px ;
 }
 
+.me {
+    margin-left: 13%;
+    margin-right: -33%;
+    margin-top: -17%;
+}
+
 .gu {
     margin-left: 13%;
-    margin-top: -37%;
+    margin-top: -45%;
     width : 1000px;
     height: 800px;
     background-color:#fff7ec;
@@ -265,6 +302,8 @@ cursor: pointer;
     height: auto;
 }
 
+
+
 #tab1:checked ~ #content1,
 #tab2:checked ~ #content2,
 #tab3:checked ~ #content3,
@@ -274,6 +313,13 @@ cursor: pointer;
 #tab7:checked ~ #content7,
 #tab8:checked ~ #content8,
 #tab9:checked ~ #content9{
+    display: block;
+}
+
+#tabtab01:checked ~ #tabtab01,
+#tabtab02:checked ~ #tabtab02,
+#tabtab03:checked ~ #tabtab03,
+#tabtab04:checked ~ #tabtab04{
     display: block;
 }
 
